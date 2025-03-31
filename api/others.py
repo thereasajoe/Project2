@@ -94,7 +94,7 @@ def solve_http_request_question(question, file=None):
         url = "https://httpbin.org/get"
 
         # Define the parameters (URL encoded automatically by requests)
-        params = {"email": "22f1000120@ds.study.iitm.ac.in"}
+        params = {"email": "23f3004024@ds.study.iitm.ac.in"}
 
         # Set custom headers to mimic HTTPie behavior
         headers = {"User-Agent": "HTTPie/3.2.4", "Accept": "*/*"}
@@ -539,7 +539,7 @@ def solve_file_encoding_sum_question(question, file=None):
 
 
 def solve_github_repo_question(question, file=None):
-    return {"answer": "https://raw.githubusercontent.com/PalakAnand30/TDS_1/refs/heads/main/email.json"}
+    return {"answer": "https://github.com/thereasajoe/tds1/blob/main/email.json"}
 
 # Function GA1Q14: Solve text replacement question
 
@@ -878,7 +878,7 @@ def solve_image_compression_question(question: str, file: UploadFile):
 
 
 def solve_github_pages_question(question, file=None):
-    return {"answer": "https://palakanand30.github.io"}
+    return {"answer": "https://thereasajoe.github.io/"}
 
 # Function GA2Q4: Google colab authentication
 
@@ -990,13 +990,13 @@ def solve_vercel_api_question(question, file=None):
 
 
 def solve_github_action_question(question, file=None):
-    return {"answer": "https://github.com/PalakAnand30/mygithubaction"}
+    return {"answer": "https://github.com/thereasajoe/mygithubaction"}
 
 # Function GA2Q8: Docker image
 
 
 def solve_docker_image_question(question, file=None):
-    return {"answer": "https://hub.docker.com/repository/docker/palakanand30/first_docker_task/general"}
+    return {"answer": "https://hub.docker.com/repository/docker/thereasajo338/ga2q7/general"}
 
 
 # Function GA2Q9: FastAPI
@@ -1895,7 +1895,7 @@ def solve_new_github_user(question, file=None):
 
 
 def solve_scheduled_github_action(question, file=None):
-    return {"answer": "https://github.com/PalakAnand30/GitHub-action-tds"}
+    return {"answer": "https://github.com/thereasajoe/ga4/actions/workflows/blank.yml"}
 
 
 # Function GA4Q9: Extract tables
