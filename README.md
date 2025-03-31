@@ -1,2 +1,3 @@
-# Project2-TDS
-This repository has been created for Tools in Data Science Project 2
+## TDS SOLVER
+### This is a repository for tds solver of GA questions
+
